@@ -1,9 +1,9 @@
-**what is javascript**
+**what is JavaScript**
 JavaScript is a scripting or programming language that allows you to implement complex features on web pages
 
 JavaScript is a lightweight scripting language made for client-side execution on the browser.
 
-JavaScript is an interpreted language instead of a compiled one.The browser interprets JavaScript’s source code, line by line and runs it
+JavaScript is an interpreted language instead of a compiled one. The browser interprets JavaScript’s source code, line by line and runs it
 
 Event Handling: JavaScript enables you to handle events and even generate custom events.
 
@@ -34,11 +34,13 @@ Allows redeclaration within the same scope. Redeclaring a var variable with the 
 let:
 Block-scoped. Variables declared with let are only accessible within the block in which they are declared. This includes loops, conditional statements, and any other curly brace-delimited block.
 
-Does not allow redeclaration within the same scope. Attempting to redeclare a let variable results in a SyntaxError.
+Does not allow redeclaration within the same scope. Attempting to redeclare a let variable results in a Syntax Error.
 
 
 
 **types of Datatypes**
+
+-->primitive types
 
 string 
 number
@@ -56,4 +58,68 @@ typeof undefined // Returns "undefined"
 typeof null // Returns "object" (kind of a bug in JavaScript)
 typeof Symbol('symbol') // Returns Symbol
 
+-->non-primitive types
+Primitive data types can store only a single value. To store multiple and complex values, non-primitive data types are used.
+Object - Used to store collection of data.
 
+
+**Datatype conversion**
+
+type conversion is the process of converting data of one type to another. For example, converting string data to number.
+
+for example : 
+
+let a = 0; 
+let b = Boolean(a); 
+console.log(b); //output will be : false
+
+**String to Number conversion**
+
+1+"2"=12
+"1"+2=12
+
+"1"+2+2=122
+1+2+"2"=32  //always left sided will be added first.
+
+
+"2" > 3 = false  // js automatically convert string into number
+
+null > 0 = false 
+
+null==0  //false
+
+null >= 0 //true because comparison convert null to number that's why it will be true
+
+undefined == 0  //false
+
+undefined > 0 //false
+
+undefined < 0 //false
+
+
+** === operator ** 
+
+"2" === "2"  //true  // it will not convert datatype automatically. and compare each other 
+
+"2" === 2 //false
+
+"2" === "1" //false
+
+
+**Difference between “ == “ and “ === “ operators.**
+
+Both are comparison operators. The difference between both the operators is that “==” is used to compare values whereas, “ === “ is used to compare both values and types.
+
+Example:
+
+var x = 2;
+var y = "2";
+(x == y)  // Returns true since the value of both x and y is the same
+(x === y) // Returns false since the typeof x is "number" and typeof y is "string"
+
+
+
+
+
+
+ 

@@ -7,9 +7,38 @@
 // console.log(PI); 
 
 
-if(true){
-    var a = null; 
-    let b = 20; 
-}
-console.log(typeof(a)); //a can be accessible
-// console.log(b); //b can not be accessible
+// if(true){
+//     var a = null; 
+//     let b = 20; 
+// }
+// console.log(typeof(a)); //a can be accessible
+// // console.log(b); //b can not be accessible
+
+// let a = 0; 
+// let b = Boolean(a); 
+
+// console.log(b); 
+
+//   console.log(2**3);
+
+// let str1 = "jay"; 
+// let str2 = " pawar"; 
+
+// console.log(str1 + str2); 
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+
+// console.log(+"");
+
+// let gamecounter = 100; 
+
+// --gamecounter; 
+
+// console.log(gamecounter);
+
+// console.log(null >= 0);  //null = null>0
+
+// console.log(undefined <= 0);
+
+console.log("2" === "1");
