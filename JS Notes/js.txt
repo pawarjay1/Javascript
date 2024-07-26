@@ -58,7 +58,12 @@ typeof undefined // Returns "undefined"
 typeof null // Returns "object" (kind of a bug in JavaScript)
 typeof Symbol('symbol') // Returns Symbol
 
--->non-primitive types
+-->non-primitive types (reference)
+
+array 
+object 
+function 
+
 Primitive data types can store only a single value. To store multiple and complex values, non-primitive data types are used.
 Object - Used to store collection of data.
 
@@ -117,7 +122,12 @@ var y = "2";
 (x == y)  // Returns true since the value of both x and y is the same
 (x === y) // Returns false since the typeof x is "number" and typeof y is "string"
 
+**use to print multiple var values in single log using `${-}`**
 
+let name = "jay"; 
+let age = 21; 
+
+console.log(`my name is ${name} and age is ${age}`);
 
 
 

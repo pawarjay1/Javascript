@@ -41,4 +41,27 @@
 
 // console.log(undefined <= 0);
 
-console.log("2" === "1");
+// console.log(1+2+3+"4"+5);
+
+// const arr = ["jay","pawar","kumar"]; 
+
+// console.log(arr[0]);
+
+// let obj1 = {
+//     name: "jay",
+//     age: 21,
+// }
+
+// const myfunc = function(){
+//     console.log("hello");
+// }
+// const func = function(){
+//     console.log("hello");
+// }
+
+// func();
+
+let name = "jay"; 
+let age = 21; 
+
+console.log(`my name is ${name} and age is ${age}`);
