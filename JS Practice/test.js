@@ -61,7 +61,9 @@
 
 // func();
 
-let name = "jay"; 
-let age = 21; 
+// let name = "jay"; 
+// let age = 21; 
 
-console.log(`my name is ${name} and age is ${age}`);
+// console.log(`my name is ${name} and age is ${age}`);
+
+// 11 lectures are completed
