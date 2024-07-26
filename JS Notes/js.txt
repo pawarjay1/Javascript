@@ -1,0 +1,59 @@
+**what is javascript**
+JavaScript is a scripting or programming language that allows you to implement complex features on web pages
+
+JavaScript is a lightweight scripting language made for client-side execution on the browser.
+
+JavaScript is an interpreted language instead of a compiled one.The browser interprets JavaScript’s source code, line by line and runs it
+
+Event Handling: JavaScript enables you to handle events and even generate custom events.
+
+
+**what are its key features**
+
+Client-side validations:
+JavaScript is heavily used for easing the interactions between users and web applications. Towards this, validation plays a significant role. Validations can guide users to fill forms correctly with valid data and prevent spam submissions. 
+
+Platform Independent:
+it can run on any computer irrespective of the operating systems used. 
+
+Async Processing: 
+JavaScript supports asynchronous behaviour through the use of Promises and Async functions. In Promises, we can make a request and attach a .then() clause to it, which only executes on the completion of the promise. The other alternative is to use the async-await syntax functions; async functions don’t execute sequentially but parallelly, which positively affects pages’ processing time and responsiveness. 
+
+Prototype-based
+JavaScript is a prototype-based scripting language, which means it uses the prototypal inheritance model instead of the commonly known class inheritance. This means instead of creating classes and deriving objects from them, we define the Objects prototype and use this object prototype to create more Objects of the same type. This behaviour is similar to the Object factory method, and thus such a design pattern is commonly seen in JavaScript code.
+
+
+**difference between let and var keyword**
+
+var:
+
+Function-scoped. Variables declared with var are accessible within the entire function in which they are declared. This means that a var variable declared inside a loop or conditional statement is still accessible outside of that block, within the same function.
+
+Allows redeclaration within the same scope. Redeclaring a var variable with the same name simply overwrites its previous value.
+
+let:
+Block-scoped. Variables declared with let are only accessible within the block in which they are declared. This includes loops, conditional statements, and any other curly brace-delimited block.
+
+Does not allow redeclaration within the same scope. Attempting to redeclare a let variable results in a SyntaxError.
+
+
+
+**types of Datatypes**
+
+string 
+number
+Boolean
+bigint
+undefine
+null
+sysmbol
+
+typeof "John Doe" // Returns "string"
+typeof 3.14 // Returns "number"
+typeof true // Returns "boolean"
+typeof 234567890123456789012345678901234567890n // Returns bigint
+typeof undefined // Returns "undefined"
+typeof null // Returns "object" (kind of a bug in JavaScript)
+typeof Symbol('symbol') // Returns Symbol
+
+
