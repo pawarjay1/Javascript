@@ -67,3 +67,9 @@
 // console.log(`my name is ${name} and age is ${age}`);
 
 // 11 lectures are completed
+
+// console.log(Math.floor(Math.random()*10)+1  );
+
+let mydate = new Date(); 
+
+console.log(mydate.toString());
