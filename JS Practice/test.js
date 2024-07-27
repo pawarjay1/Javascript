@@ -70,6 +70,8 @@
 
 // console.log(Math.floor(Math.random()*10)+1  );
 
-let mydate = new Date(); 
+// let mydate = new Date(); 
 
-console.log(mydate.toString());
+// console.log(mydate.toString());
+
+const arr = [1,2,3,4,5]; 
